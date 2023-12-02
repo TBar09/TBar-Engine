@@ -28,7 +28,7 @@ if you need to install a specific version, add it to the command:
 Now you got everything set up for compiling!
 
 # Credits
-T-Bar: Main Programmer / Creator / Owner\n
-Ghost: Cool Guy / Owner of GhostUtil\n
-Original Psych Engine Crew: Created Psych Engine\n
-Funkin' Crew: Created the base game
+-T-Bar: Main Programmer / Creator / Owner
+-Ghost: Cool Guy / Owner of GhostUtil
+-Original Psych Engine Crew: Created Psych Engine
+-Funkin' Crew: Created the base game
