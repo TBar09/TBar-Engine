@@ -30,3 +30,23 @@ ____LUA Variables____
 -totalMemory = The total amount of memory currently. Used for the memory part of the FPS text.
 -totalMemoryNumber = Similar to "totalMemory", but returns it as a float/usable number.
 -freeMemory = How much memory is currently free.
+
+____LUA Functions____
+
+____LUA Callbacks____
+
+____General (Subject to Change)____
+-[unknown date] Added a package that lets the game support 3D model files. For now, its only accessable using custom paths and runHaxeCode/hx Scripts.
+-[unknown date] Discord RPC has been updated with Buttons.
+-[unknown date] Online data has been added.
+-[unknown date] Added the "Applications" Category to the Options menu.
+-[unknown date] Added "Show Memory [Graphics]" and "FPS Enhancer [Visuals & UI]" as options.
+-[unknown date] Added a countdown animation (can be disabled using "setProperty("countdownAnimation", false);)
+-[unknown date] Time Bar color now changes depending on the character Icon color (can be disabled using "setProperty("timeBarColors", false);)
+-[unknown date] Added "RPCDetails" and "RPCState" to keep track of the discord rpc details all in one place.
+-[unknown date] Score text and Time text now turn pixelated if the current stage is a pixel stage.
+-[unknown date] Rating Popups now have Angular Acceleration if not a pixel stage.
+-[unknown date] The health icon's antialiasing is false when the current stage is a pixel stage, for better looking pixel icons.
+-[unknown date] Botplay text bops.
+-[unknown date] Added a new map: "modchartBackdrops". Used with "makeLuaBackdrop" and "addLuaBackdrop" to have FlxBackdrop in the game.
+-[unknown date] Chroma Shader has been added. can be accessed using "setSpriteChroma" or using filters. Path is "shaders.ChromaShader".
