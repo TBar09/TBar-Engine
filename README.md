@@ -18,6 +18,8 @@ The T-Bar Engine contains a lot of extra functions that separates itself from Ps
 
 4. New Options:
    New options are added to the options menu now! This includes a whole new section: Application, a window theme changer,      an option to enhance the FPS. The FPS Enhancer makes the FPS limit higher than ever, so you can go up to 500 FPS!
+
+5. for the full list of changes go to the "V1.0 Changes.txt" file
    
 # How To Compile
 To compile the TBar Engine source, you'll need to follow the Psych Engine installations, as this engine uses the same projects.
