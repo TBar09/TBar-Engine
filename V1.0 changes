@@ -1,0 +1,32 @@
+____Options Menu____
+
+-[Graphics] Show Memory = show the memory part of the FPS text. Changes instantly if your over 63 fps.
+-[Visuals & UI] FPS Enhancer = "Enhances" the game fps limit. The fps new limit is 500 fps (might not run well on bad cpu's)
+-[Application] Auto Pause = If you unfocus the application, the game will auto pause, else it will just keep running like normal.
+-[Application] Fullscreen = Game goes into fullscreen mode.
+-[Application] Window Mode = Your perfered window mode, can be Dark Mode or the default Light Mode.
+
+____LUA Variables____
+
+-version [edited] - now shows "tbarEngine " in front of the tbar engine version. Perfect for checking if a modpack is running on the T-Bar Engine.
+-versionTBarEngine - Same as 'version', only without the "tbarEngine " and just shows the version.
+
+-FPSEnhance - checks to see if the option "FPS Enhancer [Visuals & UI]" is enabled.
+-autoPause - checks to see if the option "Auto Pause [Application]" is enabled.
+-fullScreen - checks to see if the option "Fullscreen [Visuals & UI]" is enabled.
+-windowMode - checks to see what option in "Window Mode [Application]" is selected (can return "DARK" or "LIGHT").
+-showMemory - checks to see if the option "Show Memory [Graphics]" is enabled.
+
+-introText = Online variable. All of the intro text used on the title screen. Returns the entire string.
+-discordClient = Online variable. Returns the current Disord RPC client ID as a string.
+-latestVersion = Online variable. Grabs the latest version of the T-Bar Engine. It's kinda useless as this can change and could break some scripts but it there if you need it.
+-mainEngineWebsite = Online variable. Returns the link to the main website where you can download the T-Bar Engine.
+
+-defaultWidth = The default width of the game. Equals to 1280.
+-defaultHeight = The default height of the game. Equals to 720.
+-moniterWidth = The width of your moniter screen.
+-moniterHeight = The Height of your moniter screen.
+
+-totalMemory = The total amount of memory currently. Used for the memory part of the FPS text.
+-totalMemoryNumber = Similar to "totalMemory", but returns it as a float/usable number.
+-freeMemory = How much memory is currently free.
