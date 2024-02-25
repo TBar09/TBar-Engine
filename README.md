@@ -20,14 +20,6 @@ The T-Bar Engine contains a lot of extra functions that separates itself from Ps
    New options are added to the options menu now! This includes a whole new section: Application, a window theme changer,      an option to enhance the FPS. The FPS Enhancer makes the FPS limit higher than ever, so you can go up to 500 FPS!
 
 5. for the full list of changes go to the "V1.0 Changes.txt" file
-   
-# How To Compile
-To compile the TBar Engine source, you'll need to follow the Psych Engine installations, as this engine uses the same projects.
-You'll need some extra projects too. first you'll need to install away3D so 3D model functionality can work. to do this, simply go into cmd and type:
-```haxelib install away3d```
-if you need to install a specific version, add it to the command:
-```haxelib install away3d 5.0.9```
-Now you got everything set up for compiling!
 
 # Credits
 *T-Bar: Main Programmer / Creator / Owner
