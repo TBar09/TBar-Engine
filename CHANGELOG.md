@@ -26,15 +26,13 @@
 >   - **`fullScreen`** <sup>(boolean)</sup>: Checks to see if the option "Fullscreen (Visuals & UI)" is enabled.
 >   - **`windowMode`** <sup>(string)</sup>: Checks to see what option in "Window Mode (Application)" section is selected (can either return "DARK" or "LIGHT").
 >   - **`showMemory`** <sup>(boolean)</sup>: Checks to see if the option "Show Memory (Graphics)" is enabled.
->   <br>
->   <br>
+>   
 >   - **Online Variables**:
 >     - **`introText`** <sup>(string)</sup>: All of the intro text used on the title screen. Returns the entire string.
 >     - **`discordClient`** <sup>(string)</sup>: Returns the current Disord RPC client ID as a string.
 >     - **`latestVersion`** <sup>(string)</sup>: Grabs the latest version of the T-Bar Engine. It's kinda useless as this can change and could break some scripts but it there if you need it.
 >     - **`mainEngineWebsite`** <sup>(string)</sup>: Returns the link to the main website where you can download the T-Bar Engine.
->   <br>
->   <br>
+>   
 >   - **Application / Monitor**:
 >     - **`defaultWidth`** <sup>(number)</sup>: The default width of the game. Equals to 1280.
 >     - **`defaultHeight`** <sup>(number)</sup>: The default height of the game. Equals to 720.
